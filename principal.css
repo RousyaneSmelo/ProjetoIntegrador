@@ -138,10 +138,14 @@ section:hover p {
 }
 
 
-
-
-
-
+.rodape {
+   position:absolute;
+   bottom:-1115px;
+   width:94%;
+   height:30px;   /* Mesma Altura do Rodapé */
+   background:#8A0808;
+  
+}
 
 
 
