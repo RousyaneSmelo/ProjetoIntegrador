@@ -1,0 +1,47 @@
+Banco de dados - Econtech
+
+econtech
+
+colunas - 3
+
+(Cadastro)
+id - auto incremental chave primary
+email
+senha
+empresa
+cnpj - unico
+dono
+telefone
+endereco
+cidade
+estado
+cep
+ 
+tabela ok
+
+(Login)
+
+login
+Senha
+ 
+tabela ok
+
+
+(produtos)
+id - auto incremental chave primary
+Empresa
+produto
+valor
+quantidade
+telefone
+Email
+observacao
+imagem (tentar colocar imagem no banco)
+
+
+
+
+
+
+
+	
