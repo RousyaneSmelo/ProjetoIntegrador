@@ -4,6 +4,8 @@
 
 	$login = $_POST['login'];
 	$senha = $_POST['senha'];
+	var_dump($login);
+	var_dump($senha);
 	
 	$servidor = mysqli_connect("localhost","root","","econotech");
 	
@@ -11,6 +13,7 @@
 	
 	
 	$numLinhas = mysqli_num_rows($resultado);
+	var_dump($resultado);
 	
 	if($numLinhas != 0) {
 		$_SESSION['logou'] = 1;

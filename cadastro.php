@@ -1,19 +1,20 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
         <title>Sessão cliente - Cadastro</title>
         
-   
+        <script src="js/script.js"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<link type="text/css" rel="stylesheet" href="main.css">	
 
 </head>
 
 <body>
 
-
+<?php
 
 
         
@@ -21,8 +22,8 @@
                 <nav>
                     <ul>
                          <li><a href="index.html">Home</a></li>
-			                   <li><a href="cadastro.html">Cadastro</a></li>
-                          <li><a href="login.html"> Login</a></li>
+			                   <li><a href="cadastro.php">Cadastro</a></li>
+                          <li><a href="login.html">Login</a></li>
                     </ul>
                 </nav>
             </header>
@@ -61,7 +62,7 @@
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="Responsavel">Responsavel</label>
-      <input type="text" class="form-control" id="dono" placeholder="Dono" name="dono" >
+      <input type="text" class="form-control" id="responsavel" placeholder="Responsavel" name="dono	" >
     </div>
     <div class="form-group col-md-6">
       <label for="telefone">Telefone</label>
@@ -83,11 +84,11 @@
     </div>
     <div class="form-group col-md-4">
       <label for="Estado">Estado</label>
-      <select id="Estado" class="form-control" name="estado">
+      <select id="Estado" class="form-control">
         <option selected>Escolher...</option>
         <option>PB</option>
-	      <option>PE</option>
-	      <option>CE</option>
+	<option>PE</option>
+	<option>CE</option>
 
       </select>
     </div>
@@ -102,7 +103,7 @@
       </label>
     </div>
   </div>
-  <button type="submit" class="btn btn-danger">Enviar</button>
+  <button type="button" class="btn btn-danger">Enviar</button>
            
  </div>
 
@@ -113,7 +114,7 @@
 
 </section>
 
-
+?>
 
 
 
